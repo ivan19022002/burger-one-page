@@ -1,0 +1,54 @@
+.menu-acco {
+  position: absolute;
+  right: 0;
+  top: 0;
+  bottom: 0; }
+
+.menu-acco__item {
+  float: left;
+  height: 100%; }
+  .menu-acco__item.active .menu-acco__trigger-text {
+    color: #f9b43b; }
+
+.menu-acco__trigger {
+  width: rem(80px);
+  display: block;
+  height: 100%;
+  float: left;
+  text-decoration: none;
+  position: relative;
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+.menu-acco__trigger-text {
+  font-size: rem(40px);
+  color: #fff;
+  text-align: center;
+  white-space: nowrap;
+  position: absolute;
+  transform: rotate(-90deg) translateY(-50%);
+  transform-origin: 0 0;
+  left: 50%;
+  top: 100%;
+  margin-top: rem(-20px); }
+
+.menu-acco__content {
+  height: 100%;
+  background-color: #3e403f; }
+
+.menu-acco__text {
+  width: 0;
+  font-size: rem(14px);
+  color: white; }
+
+@media (max-width: 480px) {
+  .menu-acco__text {
+    padding: rem(25px) rem(15px); }
+
+  .menu-acco__trigger-text {
+    font-size: rem(26px); }
+
+  .menu-acco__trigger {
+    width: rem(50px); } }
+
+/*# sourceMappingURL=menu-acco.css.map */

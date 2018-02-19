@@ -1,0 +1,69 @@
+/*
+Error: Undefined mixin 'ubuntu'.
+        on line 11 of C:\Users\Ivan\Desktop\one-page scroll\css\_misc\layout.scss, in `ubuntu'
+        from line 11 of C:\Users\Ivan\Desktop\one-page scroll\css\_misc\layout.scss
+
+6: body {
+7:   font-size: rem(16px);
+8:   line-height: 1.42;
+9:   -webkit-font-smoothing: antialiased;
+10:   position: relative;
+11:   @include ubuntu();
+12:   color: $black;
+13: }
+14: 
+15: a{
+16:   text-decoration: none;
+
+Backtrace:
+C:\Users\Ivan\Desktop\one-page scroll\css\_misc\layout.scss:11:in `ubuntu'
+C:\Users\Ivan\Desktop\one-page scroll\css\_misc\layout.scss:11
+B:/programs/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:352:in `block in visit_mixin'
+B:/programs/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:98:in `block in with_mixin'
+B:/programs/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:135:in `with_frame'
+B:/programs/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:98:in `with_mixin'
+B:/programs/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:350:in `visit_mixin'
+B:/programs/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:36:in `visit'
+B:/programs/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:162:in `block in visit'
+B:/programs/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:79:in `block in with_base'
+B:/programs/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:135:in `with_frame'
+B:/programs/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:79:in `with_base'
+B:/programs/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:162:in `visit'
+B:/programs/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:444:in `block (2 levels) in visit_rule'
+B:/programs/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:444:in `map'
+B:/programs/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:444:in `block in visit_rule'
+B:/programs/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:183:in `with_environment'
+B:/programs/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:442:in `visit_rule'
+B:/programs/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:36:in `visit'
+B:/programs/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:162:in `block in visit'
+B:/programs/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:79:in `block in with_base'
+B:/programs/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:135:in `with_frame'
+B:/programs/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:79:in `with_base'
+B:/programs/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:162:in `visit'
+B:/programs/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
+B:/programs/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:52:in `map'
+B:/programs/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:52:in `visit_children'
+B:/programs/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:171:in `block in visit_children'
+B:/programs/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:183:in `with_environment'
+B:/programs/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:170:in `visit_children'
+B:/programs/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:36:in `block in visit'
+B:/programs/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:190:in `visit_root'
+B:/programs/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:36:in `visit'
+B:/programs/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:161:in `visit'
+B:/programs/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:10:in `visit'
+B:/programs/rubygems/gems/sass-3.5.2/lib/sass/tree/root_node.rb:36:in `css_tree'
+B:/programs/rubygems/gems/sass-3.5.2/lib/sass/tree/root_node.rb:29:in `render_with_sourcemap'
+B:/programs/rubygems/gems/sass-3.5.2/lib/sass/engine.rb:389:in `_render_with_sourcemap'
+B:/programs/rubygems/gems/sass-3.5.2/lib/sass/engine.rb:307:in `render_with_sourcemap'
+B:/programs/rubygems/gems/sass-3.5.2/lib/sass/exec/sass_scss.rb:391:in `run'
+B:/programs/rubygems/gems/sass-3.5.2/lib/sass/exec/sass_scss.rb:63:in `process_result'
+B:/programs/rubygems/gems/sass-3.5.2/lib/sass/exec/base.rb:52:in `parse'
+B:/programs/rubygems/gems/sass-3.5.2/lib/sass/exec/base.rb:19:in `parse!'
+B:/programs/rubygems/gems/sass-3.5.2/bin/sass:13:in `<top (required)>'
+B:/programs/bin/sass:22:in `load'
+B:/programs/bin/sass:22:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: Undefined mixin 'ubuntu'.\A         on line 11 of C:\Users\Ivan\Desktop\one-page scroll\css\_misc\layout.scss, in `ubuntu'\A         from line 11 of C:\Users\Ivan\Desktop\one-page scroll\css\_misc\layout.scss\A \A 6: body {\A 7:   font-size: rem(16px);\A 8:   line-height: 1.42;\A 9:   -webkit-font-smoothing: antialiased;\A 10:   position: relative;\A 11:   @include ubuntu();\A 12:   color: $black;\A 13: }\A 14: \A 15: a{\A 16:   text-decoration: none;"; }

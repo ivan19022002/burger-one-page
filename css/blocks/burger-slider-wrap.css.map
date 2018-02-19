@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA,mBAAoB;EACnB,QAAQ,EAAE,QAAQ;EAClB,OAAO,EAAE,WAAW;EAEnB,+CAA4B;IAC1B,KAAK,EAAE,IAAI",
+"sources": ["burger-slider-wrap.scss"],
+"names": [],
+"file": "burger-slider-wrap.css"
+}

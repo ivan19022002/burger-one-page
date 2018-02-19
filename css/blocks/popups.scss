@@ -1,0 +1,72 @@
+.popup {
+	display: none;
+}
+
+#full-review:target{
+  display: block;
+}
+
+.full-review {
+  background-color: white;
+	width: rem(460px);
+	height: rem(255px);
+	padding: rem(25px) rem(20px);
+	position: absolute;
+	top:50%;
+	left: 50%;
+	border-radius:5px;
+	margin: 0;
+  margin-right: -50%;
+  transform: translate(-50%, -50%)
+}
+
+.full-review__title {
+	font-size: rem(14px);
+	text-transform: uppercase;
+	margin-bottom: rem(25px);
+}
+
+.full-review__content {
+	font-size: rem(14px);
+}
+
+.full-review__close {
+	width: rem(15px);
+	height: rem(15px);
+	display: block;
+	position: absolute;
+	right: rem(20px);
+	top: rem(20px);
+	opacity: .7;
+	transition: .3s;
+
+	&:hover {
+		opacity: 1;
+		-webkit-transform: scale(0.7);
+  -ms-transform: scale(0.7);
+  transform: scale(0.7);
+	}
+
+	svg {
+		width: 100%;
+		height: 100%;
+	}
+}
+
+.status-popup__inner {
+	padding: rem(20px);
+	text-align: center;
+}
+
+.status-popup__message {
+	margin-bottom: rem(20px);
+	font-size: rem(14px);
+}
+
+.status-popup {
+	width: rem(240px);
+}
+
+.error-message {
+	color: #e35028;
+}

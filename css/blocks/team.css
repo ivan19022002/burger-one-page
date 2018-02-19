@@ -1,0 +1,44 @@
+.team {
+  background: url(../img/bg/4.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  background-position: 50%; }
+  .team .section__title {
+    margin-bottom: 12%; }
+
+.team__section {
+  position: absolute;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  left: 50%;
+  background: rgba(47, 50, 52, 0.93);
+  padding: 5% 2% 0 7%; }
+
+@media (max-width: 768px) {
+  .team {
+    display: flex;
+    align-items: center;
+    justify-content: center; }
+    .team:before {
+      content: "";
+      display: block;
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background: rgba(47, 50, 52, 0.93); }
+
+  .team__section {
+    position: relative;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    text-align: center;
+    background: transparent;
+    padding: 0; } }
+
+/*# sourceMappingURL=team.css.map */

@@ -1,0 +1,35 @@
+.header {
+	padding-top: rem(12px);
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.header__logo {
+}
+
+.header__links {
+  display: flex;
+  align-items: center;
+}
+
+.header__menu {
+	flex: 1;
+	text-align: right;
+	margin-right: rem(20px);
+}
+
+@media(wax-width:1100px){
+	.header__menu{
+		width: 85%;
+	}
+	.header__logo{
+    width: 15%;
+	}
+}
+
+@media(max-width:768px){
+	 .header__menu{
+     text-align: right;
+	 }
+}

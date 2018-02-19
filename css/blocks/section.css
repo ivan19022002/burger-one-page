@@ -1,0 +1,21 @@
+.section {
+  height: 100%;
+  min-height: rem(650px);
+  position: relative;
+  display: flex;
+  overflow: hidden; }
+
+.section__title {
+  color: #f9b43b;
+  font-size: rem(72px);
+  margin-bottom: rem(12px); }
+  .section__title.section__title_black {
+    color: #2f3234; }
+  .section__title.section__title_white {
+    color: white; }
+
+@media (max-width: 768px) {
+  .section {
+    min-height: initial; } }
+
+/*# sourceMappingURL=section.css.map */
